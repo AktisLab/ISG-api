@@ -11,8 +11,8 @@
     "url": "https://github.com//AktisLab/ISG-api"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "AktisLab",
+  "license": "",
   "dependencies": {
     "express": "^4.18.2",
     "helmet": "^6.0.0",

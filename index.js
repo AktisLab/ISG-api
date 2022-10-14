@@ -1,8 +1,10 @@
+const express = require('express');
 const morgan = require('morgan');
 
-const app = require('express')();
+const app = express();
 
 app.use(morgan("combined"))
+app.use(express.static(process.cwd() + '/public'));
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
