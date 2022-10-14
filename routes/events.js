@@ -18,7 +18,7 @@ router.get('/association', (req, res) => {
       title: "Tournée de l'Etudiant",
       date: "Du 5 au 8 octobre",
       location: "Presqu'île et Vieux Lyon",
-      cover: "wei.png",
+      cover: "vieuxLyon.png",
     },
     {
       title: "Parcours libre technologique",
