@@ -7,6 +7,7 @@ const app = express();
 app.use(morgan("combined"))
 app.use(cors());
 app.use(express.static('public'));
+app.use('/images', express.static('images'));
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
