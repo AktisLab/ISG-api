@@ -6,7 +6,7 @@ const app = express();
 
 app.use(morgan("combined"))
 app.use(cors());
-app.use(express.static(process.cwd() + '/public'));
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
